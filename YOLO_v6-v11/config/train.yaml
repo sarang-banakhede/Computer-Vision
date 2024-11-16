@@ -1,0 +1,14 @@
+# List of model versions to be trained
+models: ['yolov6', 'yolov7', 'yolov8' , 'yolov9', 'yolov10', 'yolov11']
+
+# List of model variants for each version (nano, small, medium, large, extra-large)
+versions: ['n', 's', 'm', 'l', 'x']
+
+# Number of epochs for training
+epochs: 100
+
+# Input image size for training (height and width)
+imgsz: 640
+
+# Batch size for training
+batch: 16  

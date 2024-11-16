@@ -1,0 +1,16 @@
+
+training:
+  epochs: 2
+  batch_size: 64
+  train_split: 0.5  
+  num_workers: 0  
+  learning_rate: 0.001
+  save_epoch: 1
+
+paths:
+  img_path: 'C:\Users\saran\OneDrive\Desktop\Breast Cancer\dummy_dataset\images'
+  mask_path: 'C:\Users\saran\OneDrive\Desktop\Breast Cancer\dummy_dataset\masks'
+  result_path: 'C:/Users/saran/OneDrive/Desktop/breast cancer/Outputs/Results' 
+  plot_dir: 'C:/Users/saran/OneDrive/Desktop/breast cancer/Outputs/Plots' 
+  weights_dir: 'C:/Users/saran/OneDrive/Desktop/breast cancer/Outputs/Weights' 
+  intermidiate_plot_dir: 'C:/Users/saran/OneDrive/Desktop/breast cancer/Outputs/intermidiate_plots' 
