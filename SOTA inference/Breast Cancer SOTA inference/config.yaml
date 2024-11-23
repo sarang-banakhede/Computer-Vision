@@ -1,0 +1,17 @@
+num_workers: 0  
+threshold: 0.3
+paths:
+  img_path: 'dummy_dataset\images'
+  mask_path: 'dummy_dataset\masks'
+  inference_dir: 'Outputs'
+  json_file: 'Split_info.json'
+  statistical_result: 'Results'
+
+Weights:
+  attention_unet: 'Weights\attention_unet.pth'
+  unet: 'Weights\unet.pth'
+  unet3plus: 'Weights\unet3plus.pth'
+  deeplabv3plus: 'Weights\deeplabv3plus.pth'
+  segformer: 'Weights\segformer.pth'
+  swin_unet: 'Weights\swin_unet.pth'
+  unetaspp: 'Weights\unetaspp.pth'
