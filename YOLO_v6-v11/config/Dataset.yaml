@@ -1,9 +1,0 @@
-# Paths to the training and validation image directories
-train: 'Dataset/train' 
-val: 'Dataset/val' 
-
-# Number of classes
-nc: 1
-
-# List of class names
-names: ['tumor']
